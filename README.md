@@ -36,6 +36,8 @@ simulador_cpu/
 │   ├── benchmark3.txt       # Benchmark para stalling y forwarding
 │   ├── benchmark4.txt       # Benchmark para simular interrupción
 
+
+
 ---
 
 ## 🚀 ¿Cómo ejecutar?
