@@ -16,7 +16,7 @@ Desarrollado en Python por María Parra.
 ---
 
 ## 🧱 Estructura del Proyecto
-ProyectoFinal-ARQ/
+simulador_cpu/
 ├── main.py                  # Punto de entrada del simulador
 ├── cpu/
 │   ├── __init__.py
@@ -34,7 +34,6 @@ ProyectoFinal-ARQ/
 │   ├── benchmark2.txt       # Benchmark con saltos condicionales
 │   ├── benchmark3.txt       # Benchmark para stalling y forwarding
 │   ├── benchmark4.txt       # Benchmark para simular interrupción
-
 
 ---
 
