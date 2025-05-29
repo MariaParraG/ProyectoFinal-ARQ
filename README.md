@@ -16,6 +16,7 @@ Desarrollado en Python por María Parra.
 ---
 
 ## 🧱 Estructura del Proyecto
+```
 simulador_cpu/
 ├── main.py                  # Punto de entrada del simulador
 ├── cpu/
