@@ -16,26 +16,26 @@ Desarrollado en Python por María Parra.
 ---
 
 ## 🧱 Estructura del Proyecto
-```
+<pre>
 simulador_cpu/
-├── main.py                  # Punto de entrada del simulador
+├── main.py
 ├── cpu/
 │   ├── __init__.py
-│   ├── isa.py               # Parser y definición de instrucciones
-│   ├── pipeline.py          # Implementación del pipeline de 5 etapas
+│   ├── isa.py
+│   ├── pipeline.py
 ├── memory/
 │   ├── __init__.py
-│   ├── cache.py             # Simulación de caché de mapeo directo
+│   ├── cache.py
 ├── io/
 │   ├── __init__.py
-│   ├── device.py            # Dispositivo ficticio de entrada (E/S)
-│   ├── interrupt.py         # Controlador de interrupciones
+│   ├── device.py
+│   ├── interrupt.py
 ├── tests/
-│   ├── benchmark1.txt       # Benchmark de suma con memoria
-│   ├── benchmark2.txt       # Benchmark con saltos condicionales
-│   ├── benchmark3.txt       # Benchmark para stalling y forwarding
-│   ├── benchmark4.txt       # Benchmark para simular interrupción
-
+│   ├── benchmark1.txt
+│   ├── benchmark2.txt
+│   ├── benchmark3.txt
+│   ├── benchmark4.txt
+</pre>
 
 
 ---
