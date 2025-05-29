@@ -65,7 +65,7 @@ benchmark3.txt: Hazards
 benchmark4.txt: Interrupciones
 
 ## 📝 Créditos
-Desarrollado por María Parra
-Curso: Arquitectura de Computadores
-Docente: Oscar Andrés Arias
+Desarrollado por María Parra 
+Curso: Arquitectura de Computadores 
+Docente: Oscar Andrés Arias 
 Universidad Sergio Arboleda, 2025-1
