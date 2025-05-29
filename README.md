@@ -17,23 +17,24 @@ Desarrollado en Python por María Parra.
 
 ## 🧱 Estructura del Proyecto
 ProyectoFinal-ARQ/
-├── main.py # Punto de entrada del simulador
+├── main.py                  # Punto de entrada del simulador
 ├── cpu/
-│ ├── init.py
-│ ├── isa.py # Parser de instrucciones
-│ ├── pipeline.py # Control del flujo del pipeline
+│   ├── __init__.py
+│   ├── isa.py               # Parser y definición de instrucciones
+│   ├── pipeline.py          # Implementación del pipeline de 5 etapas
 ├── memory/
-│ ├── init.py
-│ ├── cache.py # Caché de mapeo directo
+│   ├── __init__.py
+│   ├── cache.py             # Simulación de caché de mapeo directo
 ├── io/
-│ ├── init.py
-│ ├── device.py # Dispositivo ficticio
-│ ├── interrupt.py # Controlador de interrupciones
+│   ├── __init__.py
+│   ├── device.py            # Dispositivo ficticio de entrada (E/S)
+│   ├── interrupt.py         # Controlador de interrupciones
 ├── tests/
-│ ├── benchmark1.txt # Acceso a memoria + suma
-│ ├── benchmark2.txt # Saltos condicionales e incondicionales
-│ ├── benchmark3.txt # Hazard de datos (RAW)
-│ ├── benchmark4.txt # Simulación de interrupción
+│   ├── benchmark1.txt       # Benchmark de suma con memoria
+│   ├── benchmark2.txt       # Benchmark con saltos condicionales
+│   ├── benchmark3.txt       # Benchmark para stalling y forwarding
+│   ├── benchmark4.txt       # Benchmark para simular interrupción
+
 
 ---
 
